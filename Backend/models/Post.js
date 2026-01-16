@@ -15,6 +15,7 @@ const postSchema = mongoose.Schema(
         },
     },
     {
+        
         timestamps: true, // Adds createdAt and updatedAt fields
     }
 );

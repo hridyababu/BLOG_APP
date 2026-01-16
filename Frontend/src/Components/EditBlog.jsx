@@ -97,7 +97,7 @@ const EditBlog = () => {
                 <button
                     type="submit"
                     disabled={isSubmitting}
-                    className={`w-full py-3 px-4 rounded-lg text-white font-semibold transition duration-200 ${
+                    className={`w-full py-3 px-4 rounded-lg text-green font-semibold transition duration-200 ${
                         isSubmitting ? 'bg-gray-400 cursor-not-allowed' : 'bg-yellow-600 hover:bg-yellow-700'
                     }`}
                 >
